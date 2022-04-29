@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+ <head>
+<title>Javascript obține distanța dintre două puncte</title>
+
+ <script>
+ function find_distance()
+ {
+ var x1=parseInt(document.getElementById("x1").value);
+ var y1=parseInt(document.getElementById("y1").value);
+ var x2=parseInt(document.getElementById("x2").value);
+ var y2=parseInt(document.getElementById("y2").value);
+ var distance=Math.sqrt(Math.pow((x1-x2),2)+Math.pow((y1-y2),2));
+ alert("Distance: "+distance);
+ }
+ </script>
+
+ </head>
+ <body>
+ <form name="f1" method="post">
+ <label>Introduceți coordonatele punctului x1 y1 :</label><br>
+ x1:<input type="text" id="x1" size="30"/>&nbsp;y1:<input type="text" id="y1" size="30"/><br>
+ <label>Introduceți coordonatele punctului x2 y2 :</label><br>
+ x2:<input type="text" id="x2" size="30"/>&nbsp;y2:<input type="text" id="y2" size="30"/><br>
+ <button onclick="find_distance()">Find Distance</button>
+ </form>
+ </body>
+</html
