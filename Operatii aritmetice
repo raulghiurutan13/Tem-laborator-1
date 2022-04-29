@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+<head>
+  <title>JavascriptArithmeticOperators </title>
+</head>
+<body>
+  <h1>Operatii aritmetice
+ <script>
+ var a = 12, b =3;
+ var addition, substraction, multiplication, division, modulus;
+ 
+ addition = a + b; //adunarea
+ subtraction = a - b; //scaderea  
+ multiplication = a * b; //inmultirea
+ division = a / b; impartirea
+ 
+ 
+ document.write(" Adunarea lui " +a +' +b +" este = " + addition + "<br />";  
+ document.write(" Scaderea lui " +a +' +b +" este = " + subtraction + "<br />";  
+ document.write(" Inmultirea lui " +a +' +b +" este = " + multiplication + "<br />";  
+ document.write(" Impartirea lui " +a +' +b +" este = " + division + "<br />";  
+ 
+ </script>
+ </body>
+ </html>
